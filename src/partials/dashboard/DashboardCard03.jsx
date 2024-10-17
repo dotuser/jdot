@@ -29,8 +29,8 @@ function DashboardCard03() {
         <div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1">Opening Hours: 11:00-23:00</div>
       </div>
       {/* Bar chart */}
-      <div className="grow max-sm:max-h-[160px] xl:max-h-[128px]">
-        <BarChart data={chartData} width={400} height={128} />
+      <div className="grow max-sm:max-h-[160px] xl:max-h-[158px]">
+        <BarChart data={chartData} width={500} height={158} />
       </div>
     </div>
   );
